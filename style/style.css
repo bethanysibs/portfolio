@@ -38,8 +38,41 @@ h1.name {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.3px;
+  font-family: "Playfair Display", serif;
+}
+
+h2.section2 {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 90px */
+  letter-spacing: 0.3px;
+}
+
+h4.text {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%; /* 36px */
+  letter-spacing: 0.3px;
 }
 
 .beth {
   width: 320px;
+}
+
+.img2 {
+  width: 340px;
+  border-radius: 0px 300px 300px 300px;
+  background: #c4c4c4;
+}
+
+hr {
+  width: 1197.004px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.5);
 }

@@ -27,10 +27,10 @@
         </div>
     </nav>
     <!---->
-    <div class="h-screen flex items-end justify-end">
+    <div class="h-screen flex items-end justify-center">
         <div class="flex-col mb-8">            
             <div>
-                <h1 class="name underline">I'm Bethany Sibala.</h1>
+                <h1 class="name">I'm Bethany Sibala.</h1>
             </div>
             <div>
                 <span>Frontend Web Developer</span>
@@ -40,10 +40,44 @@
             <img class="beth" src="assets/img/beth.png">
         </div>
     </div>
+    <!---->
+    <div class="h-20 bg-black flex p-4 justify-between">
+         <div class="github">
+            <img src="assets/img/logo-light.png" width="150px">
+        </div>
+         <div class="linkedin">
+            <img src="assets/img/logo-light.png" width="150px">
+        </div>
+          <div class="facebook">
+            <img src="assets/img/logo-light.png" width="150px">
+        </div>
+         <div class="icon">
+            <img src="assets/img/logo-light.png" width="150px">
+        </div>
+         <div class="icon">
+            <img src="assets/img/logo-light.png" width="150px">
+        </div>
+    </div>
+
 </div>
 
 
 <!--end of section 1-->
+<!--section 2-->
+<div class="h-screen homeBg flex flex-col items-center space-y-16">
+    <div class="flex mt-12 justify-center w-full space-x-20">
+        <div>
+            <img class="img2" src="assets/img/beth.png">
+        </div>            
+        <div class="w-1/2 space-y-4 mt-10">
+            <h2 class="section2 uppercase">Frontend Developer currently based in the Philippines</h2>
+            <h4 class="text w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</h4>
+        </div>
+    </div>
+    <hr>
+</div>
+
+
     
 </body>
 </html>
