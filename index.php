@@ -27,7 +27,7 @@
         </div>
     </nav>
     <!---->
-    <div class="h-screen flex items-end justify-center">
+    <div class="h-screen flex items-end justify-end">
         <div class="flex-col mb-8">            
             <div>
                 <h1 class="name">I'm Bethany Sibala.</h1>
