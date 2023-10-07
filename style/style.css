@@ -26,6 +26,11 @@ body {
   cursor: pointer;
 }
 
+a:hover {
+  color: #7e696b;
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3 {
