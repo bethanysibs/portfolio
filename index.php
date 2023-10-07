@@ -30,14 +30,14 @@
     <div class="h-screen flex items-end justify-end">
         <div class="flex-col mb-8">            
             <div>
-                <h1 class="name">I'm Bethany Sibala.</h1>
+                <h1 class="name underline">I'm Bethany Sibala.</h1>
             </div>
             <div>
                 <span>Frontend Web Developer</span>
             </div>
         </div>
         <div>
-            <img class=".beth" src="assets/img/beth.png">
+            <img class="beth" src="assets/img/beth.png">
         </div>
     </div>
 </div>
