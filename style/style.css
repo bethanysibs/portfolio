@@ -1,0 +1,45 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+  color: #fff;
+  font-family: Poppins;
+}
+
+/* background */
+.homeBg {
+  background: var(
+    --pp3-background,
+    linear-gradient(113deg, #984d38 -30.3%, #181e41 58.12%)
+  );
+}
+
+.navItems li:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+h1.name {
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+
+.beth {
+  width: 480.409px;
+}
