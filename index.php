@@ -64,7 +64,7 @@
 
 <!--end of section 1-->
 <!--section 2-->
-<div class="h-full homeBg flex flex-col items-center space-y-8">
+<div class="h-full homeBg flex flex-col items-center space-y-8 pb-8">
     <div class="flex mt-12 justify-center w-full space-x-20">
         <div>
             <img class="img2" src="assets/img/beth.png">
@@ -87,13 +87,13 @@
            <div class="flex flex-col space-y-10">
                 <div class="box bg-gray-700 p-4 flex items-center space-x-4">
                     <img class="icons" src="assets/img/uiDesign.png">
-                    <h5 class="content">User Interface Design</h5>
+                    <h5 class="content">WordPress Development</h5>
                 </div>
-                <div class="box bg-gray-700 p-4 flex items-center space-x-4">
+                <div class="box bg-gray-600 p-4 flex items-center space-x-4">
                     <img class="icons" src="assets/img/uiDesign.png">
-                    <h5 class="content">User Interface Design</h5>
+                    <h5 class="content">Frontend Development</h5>
                 </div>
-                <div class="box bg-gray-700 p-4 flex items-center space-x-4">
+                <div class="box bg-gray-500 p-4 flex items-center space-x-4">
                     <img class="icons" src="assets/img/uiDesign.png">
                     <h5 class="content">User Interface Design</h5>
                 </div>
