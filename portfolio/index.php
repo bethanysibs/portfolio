@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bethany Sibala - Frontend Developer</title>
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/output.css" />
-  </head>
-  <body>
-    <!--section 1-->
-    <div class="h-screen homeBg flex flex-col">
-      <nav class="flex p-8 px-16 sticky top-0">
-        <div class="logo">
-          <img src="assets/img/logo-light.png" width="150px" />
-        </div>
-        <div class="flex justify-end w-full">
-          <ul class="navItems flex items-center space-x-6 text-md">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li class="flex">
-              <button class="border border-sky-500 px-2 py-1 font-semibold">
-                Hire Me
-              </button>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!---->
+<?php include "header.php" ?>
       <div class="h-screen flex items-end justify-end">
         <div class="flex-col mb-8">
           <div>
@@ -109,38 +80,8 @@
 
       <hr />
 
-      <div
-        class="flex flex-col justify-center w-full px-16 space-x-8 items-center pt-8"
-      >
-        <div class="">
-          <h2 class="content">Let’s Start by Saying Hi!</h2>
-        </div>
-        <div>
-          <button
-            class="border border-sky-500 px-2 py-1 font-semibold flex justify-center items-center space-x-2"
-          >
-            <img src="assets/img/mailIcon.png" width="18px" />
-            <span>email me</span>
-          </button>
-        </div>
-      </div>
-      <!--footer-->
-      <div class="flex items-center w-full px-20">
-        <div class="flex space-x-4 w-1/2">
-          <div class="github">
-            <img src="assets/img/gihtub.png" width="32px" />
-          </div>
-          <div class="linkedin">
-            <img src="assets/img/linkedin.png" width="32px" />
-          </div>
-          <div class="linkedin">
-            <img src="assets/img/twitter.png" width="32px" />
-          </div>
-        </div>
-        <div class="flex justify-end w-1/2">
-          <span>Created by <a href="#">Bethany</a> All rights reserved.</span>
-        </div>
-      </div>
+     
+     <?php include "footer.php" ?>
     </div>
   </body>
 </html>
