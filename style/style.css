@@ -85,15 +85,15 @@ h5.content .beth {
 }
 
 hr {
-  width: 1197.004px;
+  width: 100vw;
   height: 2px;
   background: rgba(255, 255, 255, 0.5);
 }
 
 .box {
   border-radius: 25px;
-  width: 450px;
-  height: 120px;
+  /* width: 380px;
+  height: 120px; */
   flex-shrink: 0;
   border-radius: 25px;
   background: var(--half-white, rgba(255, 255, 255, 0.5));
