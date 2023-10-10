@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 <!---->
-<div class="h-screen flex items-end justify-end">
+<div class="h-screen flex justify-end items-end space-x-8">
+
     <div class="flex-col mb-8">
         <div>
             <h1 class="name">I'm Bethany Sibala.</h1>
@@ -10,8 +11,9 @@
         </div>
     </div>
     <div>
-        <img class="beth" src="assets/img/beth.png" />
+        <img class="beth" src="assets/img/beth2.png" />
     </div>
+
 </div>
 <!---->
 <div class="h-20 bg-black flex justify-between items-center px-16">
@@ -82,7 +84,7 @@
     <hr />
     <!--portfolio-->
     <div class="flex justify-center w-full px-16 items-center">
-        <div class="grid sm:grid-cols-12 gap-8">
+        <div class="grid sm:grid-cols-12 gap-8" id="portfolio">
             <div class="col-span-3 box bg-gray-500 w-48 h-auto p-4 border">
 
             </div>
